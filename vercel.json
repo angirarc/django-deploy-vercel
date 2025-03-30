@@ -9,5 +9,6 @@
         "src": "/(.*)",
         "dest": "test_project/wsgi.py"
       }
-    ]
+    ],
+    "buildCommand": "chmod +x build.sh && ./build.sh"
 }
