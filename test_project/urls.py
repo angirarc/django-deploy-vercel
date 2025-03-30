@@ -1,6 +1,6 @@
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from accounts.views import home, signup_view, login_view, logout_view
 
