@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api',
-    'landing'
 ]
 
 MIDDLEWARE = [
@@ -158,7 +157,6 @@ STATIC_URL = 'static/'
 
 
 # Define the directories where static files will be collected from
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'landing/static')]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
